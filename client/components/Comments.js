@@ -14,7 +14,8 @@ const Comments = React.createClass({
     )
   },
   handleSubmit(e) {
-    e.preventDefault(); //will stop the page from refreshing Copied from Wes Bos video 14 down to ->
+    e.preventDefault(); //will stop the page from refreshing "e" means event
+    // Copied from Wes Bos video 14 down to ->
     console.log("Submitting the form!"); //open up my console <tallet øker på Submitting the form!>
     // Get the text out of these inputs here
     console.log(this.refs) // refs is going to be populated with what we put refs on
